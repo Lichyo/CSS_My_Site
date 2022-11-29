@@ -1,0 +1,54 @@
+body
+{
+  background-color: #344D67;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1
+{
+  font-size: 90px;
+  width: 10%;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-cloud
+{
+  padding-top: 100px;
+  position: relative;
+  left: 200px;
+}
+
+.bottom-cloud
+{
+  position: relative;
+  right: 200px;
+}
+
+.mountain
+{
+  position: relative;
+  bottom: 100px;
+}
+
+.picture
+{
+  border-radius: 50%;
+}
+
+.cube
+{
+  border-radius: 50%;
+}
