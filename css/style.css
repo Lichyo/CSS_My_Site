@@ -47,18 +47,49 @@ a:hover {
   color: #EAF6F6;
 }
 
+.top-anchor
+{
+  text-align: right;
+  position: fixed;
+  margin: 30px 20px;
+  display: inline;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
+  text-align: center;
 }
 
 .middle-container {
-  margin: 100px 0;
+  margin: 0;
+  text-align: center;
+  background-image:linear-gradient(to top, #A0E4CB, #E4F9F5);
+}
+
+.mountain-img
+{
+  position: relative;
+  right: auto;
+}
+
+.top-cloud-img
+{
+  position: absolute;
+  right: 250px;
+}
+
+.bottom-cloud-img
+{
+  position: relative;
+  top: 250px;
+  right: 280px;
 }
 
 .bottom-container {
   background-color: #66BFBF;
+  text-align: center;
   padding: 50px 0 20px;
 }
 
@@ -102,12 +133,15 @@ a:hover {
 
 .computer-img {
   width: 25%;
+  height: 25%;
   float: left;
   margin-right: 30px;
+  border-radius: 50%;
 }
 
 .cube-img {
-  width: 25%;
+  width: 100px;
+  height: 100px;
   float: right;
   margin-left: 30px;
 }
